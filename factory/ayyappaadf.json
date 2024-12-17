@@ -1,0 +1,9 @@
+{
+	"name": "ayyappaadf",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "85efd5f8-093f-43c6-a620-6b35ff9d9b3e",
+		"tenantId": "d61ab516-7470-4b79-a6e1-1d3d6bd08aad"
+	}
+}

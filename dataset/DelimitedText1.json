@@ -1,0 +1,89 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "squirrel-data.csv",
+				"container": "raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Area Name",
+				"type": "String"
+			},
+			{
+				"name": "Area ID",
+				"type": "String"
+			},
+			{
+				"name": "Park Name",
+				"type": "String"
+			},
+			{
+				"name": "Park ID",
+				"type": "String"
+			},
+			{
+				"name": "Squirrel ID",
+				"type": "String"
+			},
+			{
+				"name": "Primary Fur Color",
+				"type": "String"
+			},
+			{
+				"name": "Highlights in Fur Color",
+				"type": "String"
+			},
+			{
+				"name": "Color Notes",
+				"type": "String"
+			},
+			{
+				"name": "Location",
+				"type": "String"
+			},
+			{
+				"name": "Above Ground (Height in Feet)",
+				"type": "String"
+			},
+			{
+				"name": "Specific Location",
+				"type": "String"
+			},
+			{
+				"name": "Activities",
+				"type": "String"
+			},
+			{
+				"name": "Interactions with Humans",
+				"type": "String"
+			},
+			{
+				"name": "Other Notes or Observations",
+				"type": "String"
+			},
+			{
+				"name": "Squirrel Latitude (DD.DDDDDD)",
+				"type": "String"
+			},
+			{
+				"name": "Squirrel Longitude (-DD.DDDDDD)",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

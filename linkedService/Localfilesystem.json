@@ -1,0 +1,17 @@
+{
+	"name": "Localfilesystem",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\Users\\ayyap\\Downloads",
+			"userId": "ayyappa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzNTg3ZDNiZi0wMmUyLTQ4MTAtYjdiZS03ZWU2ZjY3ODU5NzEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
